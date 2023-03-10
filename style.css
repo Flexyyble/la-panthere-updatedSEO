@@ -13,6 +13,10 @@ button {
     outline: none!important;
 }
 
+button:focus {
+    border: 2px solid #2875e9;
+}
+
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -792,7 +796,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffffff!important;
 }
 
 .btn-atomic-tangerine {
@@ -1043,6 +1047,10 @@ h4 {
         max-width: 75%;
         width: 400px;
         display: inline-block;
+    }
+    .social {
+        display: flex;
+        justify-content: space-evenly;
     }
 }
 
